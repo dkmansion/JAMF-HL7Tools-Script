@@ -7,7 +7,7 @@ Requires: https://github.com/RobHolme/HL7-Powershell-Module
   https://github.com/RobHolme/HL7-Powershell-Module/releases/tag/v1.6.5
   
   Follow Rob's install instructions, and place this script with your scripts or Modules folder.
-  You can Install it, or import it
+  You can Install it, import it into other scripts, and invoke as needed.
 
 # Note
 Though this was initially created to mimic Epic HL7 messages sent to JAMF listener, it should adapt to other HL7 message send requirements.  The message structure would change based on environment variables in your use scenarios.
