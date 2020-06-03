@@ -8,3 +8,11 @@ Requires: https://github.com/RobHolme/HL7-Powershell-Module
   
   Follow Rob's install instructions, and place this script with your scripts or Modules folder.
   You can Install it, or import it
+
+# Note
+Though this was initially created to mimic Epic HL7 messages sent to JAMF listener, it should adapt to other HL7 message send requirements.  The message structure would change based on environment variables in your use scenarios.
+
+That said this is not unique to JAMF usage, but started as a tool just for listener testing without having to login to the EMR to change Patient Interaction/Admitted/Discharged state to trigger messages for adhoc testing.
+
+I hope it helps others.
+DKM
